@@ -22,6 +22,10 @@ function inc(a, b) {
   return a + 1;
 }
 
+function inc(a, b) {
+  return a - 1;
+}
+
 function makeInt(n) {
   return parseInt(n, 10);
 }
